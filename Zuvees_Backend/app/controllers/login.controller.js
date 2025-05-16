@@ -44,7 +44,7 @@ const login = async (req, res, next) => {
         name,
         email,
         imageSrc: cloudinaryPublicID,
-        roles: ["admin"],
+        roles: ["user"],
       });
     }else if(!user.imageSrc){
       const uploadImgResult = await uploadOnCloudinaryUsingRemoteURL(picture, "gamingEcommerce/usersImage");
