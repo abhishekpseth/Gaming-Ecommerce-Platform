@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{  
+  font-family: 'Poppins', sans-serif;
+  background: #ececec;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 0.7rem;
+  height: 0.7rem;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: gray;
+  border-radius: 30px;
+  cursor: grab;
+}
+
+.invisible-scrollbar::-webkit-scrollbar {
+  display: none;
+}
