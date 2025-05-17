@@ -1,6 +1,6 @@
 <img src="https://github.com/abhishekpseth/Gaming-Ecommerce-Platform/blob/main/Images/Screenshot%20(41).png"/>
 
-# E-commerce  Gaming Platform
+# E-commerce Platform
 
 A completely responsive E-commerce platform built using MERN stack for gaming segment.
 
